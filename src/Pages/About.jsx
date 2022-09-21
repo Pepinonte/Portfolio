@@ -1,6 +1,6 @@
 import expressLogo from "../assets/expressjs.svg";
 import tailwindLogo from "../assets/tailwind-css.svg";
-
+import mySqlLogo from "../assets/mysql_logo.png";
 const About = () => {
   return (
     <section
@@ -40,12 +40,12 @@ const About = () => {
             <h2 className="text-2xl ">My Skills</h2>
             <div className="m-6 grid grid-rows-3 grid-flow-col xl:gap-20 gap-10">
               <div className="flex flex-col  justify-center items-center ">
-                <i className="fab fa-node fa-5sx" aria-hidden="true"></i>
+                <i className="fab fa-node fa-5x" aria-hidden="true"></i>
                 <h2>Node.js</h2>
               </div>
               <div className="flex flex-col  justify-center items-center ">
                 <i className="fab fa-git fa-5x" aria-hidden="true"></i>
-                <h2>React</h2>
+                <h2>Git</h2>
               </div>
 
               <div
@@ -72,7 +72,7 @@ const About = () => {
               </div>
               <div className="flex flex-col  justify-center items-center ">
                 <i className="fab fa-github fa-5x" aria-hidden="true"></i>
-                <h2>React</h2>
+                <h2>GitHub</h2>
               </div>
               <div
                 className="flex flex-col justify-center items-center"
@@ -83,7 +83,7 @@ const About = () => {
                   src={tailwindLogo}
                   alt="Express.js icon"
                 />
-                <div>Express.js</div>
+                <div>Tailwind</div>
               </div>
               <div className="flex flex-col  justify-center items-center ">
                 <i className="fab fa-js fa-5x" aria-hidden="true"></i>
@@ -93,9 +93,16 @@ const About = () => {
                 <i className="fab fa-react fa-5x" aria-hidden="true"></i>
                 <h2>React</h2>
               </div>
-              <div className="flex flex-col  justify-center items-center ">
-                <i className="fab fa-react fa-5x" aria-hidden="true"></i>
-                <h2>React</h2>
+              <div
+                className="flex flex-col justify-center items-center"
+                data-sr-id="16"
+              >
+                <img
+                  className=" w-16 h-16"
+                  src={mySqlLogo}
+                  alt="Express.js icon"
+                />
+                <div>MySql</div>
               </div>
             </div>
           </div>
