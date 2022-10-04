@@ -12,7 +12,7 @@ const WelcomeElement = () => {
       <img className="w-48 h-48 rounded-full " src={ProfilImg} />
       <div className="flex flex-col h-64 md:h-screen justify-center items-center sm:text-5xl text-4xl ">
         <h1 className="p-2 text-white">Hi!</h1>
-        <h1 className="p-2 font-bold text-blue-600">I'm GROS Chrisitan</h1>
+        <h1 className="p-2 font-bold text-blue-600">I'm GROS Christian</h1>
         <h1 className="p-2 text-white">FullStack Developer</h1>
       </div>
     </motion.div>
