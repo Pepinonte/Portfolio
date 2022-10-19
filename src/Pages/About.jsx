@@ -4,7 +4,7 @@ import mySqlLogo from "../assets/mysql_logo.png";
 const About = () => {
   return (
     <section
-      className="m-16 xl:m-0 flex justify-center items-center"
+      className="h-screen m-16 xl:m-0 flex justify-center items-center"
       id="about"
     >
       <div>
