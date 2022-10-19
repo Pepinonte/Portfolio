@@ -12,24 +12,17 @@ const About = () => {
         <div className="aboutElement flex flex-col xl:flex-row">
           <div className="description flex flex-col max-w-max xl:max-w-xxs">
             <h2 className="text-2xl">
-              I'm Christian GROS, FullStack Developer.
+              Je suis Christian GROS, FullStack Developer.
             </h2>
             <p className="pt-6 ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-              dolorum voluptatibus numquam omnis voluptates hic odio, tempora,
-              autem deleniti ab saepe ducimus inventore debitis sapiente beatae
-              vitae iste animi veritatis nesciunt reiciendis doloremque neque
-              fugit et? Labore, numquam, sapiente voluptatem tempora error
-              officia nisi deleniti possimus accusantium assumenda alias ea
-              libero sunt a eius neque dolore. Distinctio accusamus,
-              dignissimos, aliquam expedita nostrum quis totam eaque corrupti
-              unde maxime provident obcaecati impedit doloremque officia qui
-              alias repellendus, neque non nisi ad nihil consequuntur facilis
-              eum quidem. Cumque ducimus nisi ab ipsum molestias aspernatur
-              tempora recusandae vero, quaerat vitae magnam delectus quas unde
-              beatae, explicabo consequuntur illum repellat, praesentium
-              dolores! Repudiandae hic, delectus provident rem labore earum
-              officia facere molestias quis magni omnis soluta .
+              Professionnel, dynamique et créatif, je suis toujours engagé dans
+              mon travail et apte à travailler dans différents environnements.
+              Avec 2 années d’expérience dans le secteur informatique, je suis
+              actuellement en recherche de nouveaux défis à relever. Passionnée
+              par toutes les formes de Developement informatique, je suis
+              reconnue dans la sphère professionnelle pour mon dynamisme et mon
+              avoir-faire dans le domaine ainsi que par mon relationnel. Je
+              cherche à mettre mon expertise au service d’une nouvelle société.
             </p>
 
             <button className="mt-10 mb-10 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
