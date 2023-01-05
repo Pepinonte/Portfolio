@@ -26,7 +26,10 @@ const About = () => {
             </p>
 
             <button className="mt-10 mb-10 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-              <i className="fa-solid fa-file-arrow-down"></i> Download CV
+              <i className="fa-solid fa-file-arrow-down"></i>{" "}
+              <a href="../../public/cv.pdf" download>
+                Download CV
+              </a>
             </button>
           </div>
           <div className="skills pl-0 xl:pl-32 flex flex-col justify-center items-center ">
